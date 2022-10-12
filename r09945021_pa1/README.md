@@ -3,7 +3,7 @@
 
 ## Introduction
 This program supports four different sorting methods:    
-`**insertion sort**`, `**merge sort**`, `**quick sort**` and `**heap sort**`.
+**`insertion sort`**, **`merge sort`**, **`quick sort`** and **`heap sort`**.
 ### Directories
 | Name | Description |
 |------|-------------|
