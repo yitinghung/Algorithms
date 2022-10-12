@@ -3,7 +3,7 @@
 
 ## Introduction
 This program supports four different sorting methods:    
-insertion sort, merge sort, quick sort and heap sort.
+`**insertion sort**`, `**merge sort**`, `**quick sort**` and `**heap sort**`.
 ### Directories
 | Name | Description |
 |------|-------------|
@@ -35,6 +35,7 @@ The output file (*.out) is actually the same as the input file except that the n
 2 7 
 3 13 
 4 16
+```
 
 ## PLOT
 You can visualize your unsorted/sorted numbers by using the gnuplot tool by the command gnuplot. After that, please key in the following
@@ -50,7 +51,7 @@ set terminal png
 set output "5.case1.out.png"
 replot
 ```
-![image(https://github.com/yitinghung/Algorithms/blob/main/截圖%202022-10-12%20上午11.42.41.png)
+![image](https://github.com/yitinghung/Algorithms/blob/main/r09945021_pa1/plot_example.png)
 
 
 ## How to Compile
@@ -63,8 +64,9 @@ make
 cd bin
 ./NTU_sort -[IS|MS|QS|HS] <input_file_name> <output_file_name>
 ```
-```
+
 For example,
+```
 under r09945021_pa1/
 ./bin/NTU_sort -MS inputs/1000.case1.in outputs/1000.case1.out
 ```
@@ -74,6 +76,7 @@ under r09945021_pa1/
 cd utility/
 ./PA1_result_checker <input_file> <your_output_file>
 ```
+
 For example,
 ```
 under r09945021_pa1/
