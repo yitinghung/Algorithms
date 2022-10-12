@@ -65,9 +65,9 @@ cd bin
 ./NTU_sort -[IS|MS|QS|HS] <input_file_name> <output_file_name>
 ```
 
-For example,
-```
+For example,    
 under r09945021_pa1/
+```
 ./bin/NTU_sort -MS inputs/1000.case1.in outputs/1000.case1.out
 ```
 
@@ -77,8 +77,8 @@ cd utility/
 ./PA1_result_checker <input_file> <your_output_file>
 ```
 
-For example,
-```
+For example,    
 under r09945021_pa1/
+```
 ./utility/PA1_result_checker ./inputs/5.case1.in ./outputs/5.case1.out
 ```
