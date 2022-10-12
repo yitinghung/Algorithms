@@ -35,7 +35,7 @@ Sample Output:
 make
 ```
 
-##How to Run
+## How to Run
 ```
 cd bin/
 ./mps <input_file_name> <output_file_name>
